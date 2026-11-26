@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tirana Caffe · Bar, pasticceria, cucina</title>
+<meta name="description" content="Tirana Caffe: pastries baked every morning, pasta made by hand at noon and high tea in the afternoon.">
+<meta name="theme-color" content="#4f5a26">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- striped café awning -->
+<div class="awning" aria-hidden="true"></div>
+
+<header class="hero" id="top">
+  <nav class="topbar wrap" aria-label="Main">
+    <ul class="links left">
+      <li><a href="#menu">The menu</a></li>
+      <li><a href="#bakery">Bakery</a></li>
+    </ul>
+    <a class="monogram" href="#top" aria-label="Tirana Caffe, back to top"><span>T</span><span>C</span></a>
+    <ul class="links right">
+      <li><a href="#high-tea">High tea</a></li>
+      <li><a href="#book">Reserve</a></li>
+    </ul>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menu</button>
+  </nav>
+
+  <div id="nav-panel" class="nav-panel" hidden>
+    <a href="#menu">The menu</a>
+    <a href="#bakery">Bakery</a>
+    <a href="#high-tea">High tea</a>
+    <a href="#visit">Visit</a>
+    <a href="#book">Reserve a table</a>
+  </div>
+
+  <div class="wrap hero-body">
+    <p class="eyebrow"><i>Bar · Pasticceria · Cucina</i> <span>in the centre of Tirana</span></p>
+    <h1><span class="w1">Tirana</span> <span class="w2">Caffe</span></h1>
+    <p class="hero-text">Croissants out of the oven at <span class="sc">eight</span>. Pasta rolled by hand at <span class="sc">noon</span>. Three tiers and a pot of tea at <span class="sc">three</span>.</p>
+    <p class="hero-links">
+      <a class="arrow" href="#book">Reserve a table</a>
+      <a class="arrow quiet" href="#menu">Read the menu</a>
+    </p>
+  </div>
+
+  <svg class="hero-croissant" viewBox="0 0 220 140" aria-hidden="true"><use href="#i-croissant"/></svg>
+  <svg class="spark s1" viewBox="-14 -14 28 28" aria-hidden="true"><use href="#i-spark"/></svg>
+  <svg class="spark s2" viewBox="-14 -14 28 28" aria-hidden="true"><use href="#i-spark"/></svg>
+
+  <svg class="stamp" viewBox="0 0 140 140" aria-hidden="true">
+    <defs><path id="ring" d="M70 70 m-52 0 a52 52 0 1 1 104 0 a52 52 0 1 1 -104 0"/></defs>
+    <circle cx="70" cy="70" r="68" class="stamp-bg"/>
+    <circle cx="70" cy="70" r="36" class="stamp-line"/>
+    <text><textPath href="#ring" textLength="320">BAKED EVERY MORNING · TIRANA CAFFE ·</textPath></text>
+    <use href="#i-spark" transform="translate(70 70) scale(1.3)"/>
+  </svg>
+</header>
+<div class="scallop olive" aria-hidden="true"></div>
+
+<main id="main">
+
+<!-- THE MENU -->
+<section class="menu" id="menu" aria-labelledby="menu-title">
+  <div class="wrap">
+    <div class="title-block">
+      <svg class="flourish" viewBox="0 0 240 24" aria-hidden="true"><use href="#i-flourish"/></svg>
+      <h2 id="menu-title">The Menu</h2>
+      <p class="sub"><span class="sc">Lunch &amp; dinner</span> · prices in lek</p>
+    </div>
+
+    <div class="card">
+      <div class="course">
+        <h3><span class="num">I</span> Appetizers</h3>
+        <ul>
+          <li><div class="line"><b>Burrata with cherry tomatoes</b><i class="dots"></i><span class="price">500</span></div><p>Creamy burrata, cherry tomatoes, basil and extra virgin olive oil</p></li>
+          <li><div class="line"><b>Marinated anchovies</b><i class="dots"></i><span class="price">500</span></div><p>Anchovy fillets with lemon, garlic and parsley</p></li>
+          <li><div class="line"><b>Cold cuts &amp; cheese board</b><i class="dots"></i><span class="price">900</span></div><p>Italian cold cuts and aged cheeses with rustic bread and honey</p></li>
+          <li><div class="line"><b>Meatballs in tomato sauce</b><i class="dots"></i><span class="price">600</span></div><p>Slow-cooked in a rich tomato sauce</p></li>
+          <li><div class="line"><b>Fried vegetables</b><i class="dots"></i><span class="price">700</span></div><p>Seasonal vegetables in a light, crisp batter</p></li>
+        </ul>
+      </div>
+      <div class="course">
+        <h3><span class="num">II</span> First courses</h3>
+        <ul>
+          <li><div class="line"><b>Tagliatelle with meat ragù</b><i class="dots"></i><span class="price">1200</span></div><p>Fresh handmade pasta with a slow-cooked ragù</p></li>
+          <li><div class="line"><b>Orecchiette with turnip greens</b><i class="dots"></i><span class="price">1300</span></div><p>Turnip greens, garlic and olive oil</p></li>
+          <li><div class="line"><b>Lemon risotto</b><i class="dots"></i><span class="price">1200</span></div><p>Creamy risotto with the scent of fresh lemon</p></li>
+          <li><div class="line"><b>Paccheri with tomato sauce</b><i class="dots"></i><span class="price">1100</span></div><p>Fresh tomato sauce, basil and grated Parmesan</p></li>
+          <li><div class="line"><b>Tuscan soup</b><i class="dots"></i><span class="price">1000</span></div><p>Potatoes, kale and sausage</p></li>
+        </ul>
+      </div>
+      <div class="course">
+        <h3><span class="num">III</span> Main courses</h3>
+        <ul>
+          <li><div class="line"><b>Roasted rabbit</b><i class="dots"></i><span class="price">2200</span></div><p>Baked with aromatic herbs and white wine</p></li>
+          <li><div class="line"><b>Salt-crusted fish</b><i class="dots"></i><span class="price">2000</span></div><p>Whole fish baked in a salt crust to keep it juicy</p></li>
+          <li><div class="line"><b>Red wine braised beef</b><i class="dots"></i><span class="price">2300</span></div><p>Braised slowly in red wine with spices</p></li>
+          <li><div class="line"><b>Lemon escalopes</b><i class="dots"></i><span class="price">2300</span></div><p>Thin cutlets in a delicate lemon sauce</p></li>
+          <li><div class="line"><b>Fried calamari &amp; shrimp</b><i class="dots"></i><span class="price">1200</span></div><p>Crispy, served with fresh lemon</p></li>
+        </ul>
+      </div>
+      <div class="course">
+        <h3><span class="num">IV</span> Desserts</h3>
+        <ul>
+          <li><div class="line"><b>Grandmother's cake</b><i class="dots"></i><span class="price">500</span></div><p>Pastry cream and pine nuts</p></li>
+          <li><div class="line"><b>Sicilian cassata</b><i class="dots"></i><span class="price">600</span></div><p>Ricotta, candied fruit and sponge cake</p></li>
+          <li><div class="line"><b>Rum babà</b><i class="dots"></i><span class="price">400</span></div><p>Soft sponge soaked in rum</p></li>
+          <li><div class="line"><b>Hazelnut gelato</b><i class="dots"></i><span class="price">760</span></div><p>Creamy gelato with toasted hazelnuts</p></li>
+          <li><div class="line"><b>Sfogliatella</b><i class="dots"></i><span class="price">700</span></div><p>Crisp layered pastry with a soft, fragrant filling</p></li>
+        </ul>
+      </div>
+      <p class="card-note">Ask us about allergens — we know every recipe by heart.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BAKERY -->
+<section class="bakery" id="bakery" aria-labelledby="bakery-title">
+  <div class="wrap">
+    <div class="bakery-head">
+      <h2 id="bakery-title">From the <em>oven</em></h2>
+      <p>On the counter every morning from <span class="sc">08:00</span>, until they're gone.</p>
+    </div>
+    <div class="shelf" aria-hidden="true">
+      <svg viewBox="0 0 220 140"><use href="#i-croissant"/></svg>
+      <svg viewBox="0 0 200 160"><use href="#i-danish"/></svg>
+      <svg viewBox="0 0 200 160"><use href="#i-roll"/></svg>
+      <svg viewBox="0 0 200 170"><use href="#i-muffin"/></svg>
+    </div>
+    <ul class="tags">
+      <li class="tag" style="--r:-4deg"><b>Butter croissant</b><span class="price">250</span><p>Flaky and golden, French style</p></li>
+      <li class="tag" style="--r:3deg"><b>Chocolate danish</b><span class="price">340</span><p>Dark chocolate and a light glaze</p></li>
+      <li class="tag" style="--r:-2deg"><b>Cinnamon roll</b><span class="price">480</span><p>With creamy vanilla icing</p></li>
+      <li class="tag" style="--r:4deg"><b>Blueberry muffin</b><span class="price">280</span><p>Fresh blueberries, soft crumb</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- HIGH TEA -->
+<section class="high-tea" id="high-tea" aria-labelledby="tea-title">
+  <div class="wrap tea-grid">
+    <div class="arch" aria-hidden="true">
+      <svg viewBox="0 0 300 380"><use href="#i-stand"/></svg>
+    </div>
+    <div class="tea-copy">
+      <p class="script">Afternoons</p>
+      <h2 id="tea-title">Three tiers,<br><em>one pot.</em></h2>
+      <ol class="tiers">
+        <li><span class="num">I</span> Finger sandwiches</li>
+        <li><span class="num">II</span> Warm scones, cream and jam</li>
+        <li><span class="num">III</span> Small cakes from our bakery</li>
+      </ol>
+      <p>With a pot of tea of your choice. Monday to Saturday, 15:00 to 18:00.</p>
+      <p class="tea-price"><span class="big">1,800</span> lek per person</p>
+      <a class="arrow light" href="#book" data-occasion="High tea">Book high tea</a>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="visit" id="visit" aria-labelledby="visit-title">
+  <div class="wrap visit-grid">
+    <div class="sign-wrap">
+      <svg class="string" viewBox="0 0 300 80" aria-hidden="true"><path d="M40 78 L150 8 L260 78"/><circle cx="150" cy="8" r="6"/></svg>
+      <div class="sign" id="sign" role="status">
+        <p class="sign-small">We are</p>
+        <p class="sign-big" id="sign-state">Open</p>
+        <p class="sign-small" id="sign-when">until 22:00 today</p>
+      </div>
+    </div>
+    <div>
+      <h2 id="visit-title">Come <em>by</em></h2>
+      <p class="visit-text">In the centre of Tirana. Walk in for a coffee at the bar; for six or more, please reserve.</p>
+      <dl class="hours">
+        <div><dt>Monday – Saturday</dt><i class="dots"></i><dd>08:00 – 22:00</dd></div>
+        <div><dt>Sunday</dt><i class="dots"></i><dd>closed</dd></div>
+        <div><dt>Bar &amp; bakery</dt><i class="dots"></i><dd>from 08:00</dd></div>
+        <div><dt>Kitchen</dt><i class="dots"></i><dd>12:00 – 21:30</dd></div>
+        <div><dt>High tea</dt><i class="dots"></i><dd>15:00 – 18:00</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- RESERVE -->
+<section class="book" id="book" aria-labelledby="book-title">
+  <div class="wrap">
+    <form class="ticket" id="booking" novalidate>
+      <div class="ticket-head">
+        <h2 id="book-title">Reserve a table</h2>
+        <p>We call back to confirm within the hour, while we're open.</p>
+      </div>
+
+      <p class="sentence">
+        A table for
+        <label class="vh" for="guests">Guests</label>
+        <select id="guests" name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select>
+        on
+        <label class="vh" for="date">Date</label>
+        <input id="date" name="date" type="date" required>
+        at
+        <label class="vh" for="time">Time</label>
+        <select id="time" name="time"></select>,
+        for
+        <label class="vh" for="occasion">Occasion</label>
+        <select id="occasion" name="occasion"><option>breakfast</option><option selected>lunch or dinner</option><option>high tea</option></select>.
+      </p>
+      <p class="error" id="date-error" hidden>We're closed on Sundays. Please pick a day from Monday to Saturday, from today on.</p>
+
+      <div class="fields">
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" autocomplete="name" required>
+          <p class="error" id="name-error" hidden>Please write your name.</p>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required pattern="[0-9 +()\-]{8,}">
+          <p class="error" id="phone-error" hidden>Please write a phone number we can call.</p>
+        </div>
+      </div>
+
+      <div class="ticket-foot">
+        <button class="send" type="submit">Request the table</button>
+        <p class="success" id="booking-done" role="status" hidden></p>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="footer-mark">Tirana <span>Caffe</span></p>
+    <div class="footer-row">
+      <p>Bar · Pasticceria · Cucina</p>
+      <p>Tirana, Albania</p>
+      <p><a href="#top">Back to the top ↑</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- Illustrations, drawn once and reused -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <path id="i-spark" d="M0 -14 C2 -4 4 -2 14 0 C4 2 2 4 0 14 C-2 4 -4 2 -14 0 C-4 -2 -2 -4 0 -14Z"/>
+
+    <symbol id="i-flourish" viewBox="0 0 240 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <path d="M4 12 H84 M156 12 H236"/>
+        <path d="M84 12 C92 2 104 4 104 12 C104 18 96 18 96 13"/>
+        <path d="M156 12 C148 2 136 4 136 12 C136 18 144 18 144 13"/>
+      </g>
+      <path d="M120 3 L128 12 L120 21 L112 12Z" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="i-croissant" viewBox="0 0 220 140">
+      <g stroke="#2a211b" stroke-width="3" stroke-linejoin="round">
+        <path fill="#c9772f" d="M20 95 C8 80 14 58 34 56 C46 70 48 88 42 104 C34 106 24 102 20 95Z"/>
+        <path fill="#dd9443" d="M34 56 C40 36 60 28 76 32 C84 56 84 84 78 110 C64 112 50 110 42 104 C48 88 46 70 34 56Z"/>
+        <path fill="#e8aa55" d="M76 32 C92 18 128 18 144 32 C140 58 140 86 142 112 C120 118 98 116 78 110 C84 84 84 56 76 32Z"/>
+        <path fill="#dd9443" d="M144 32 C160 28 180 36 186 56 C174 70 172 88 178 104 C170 110 156 112 142 112 C140 86 140 58 144 32Z"/>
+        <path fill="#c9772f" d="M186 56 C206 58 212 80 200 95 C196 102 186 106 178 104 C172 88 174 70 186 56Z"/>
+      </g>
+      <g fill="none" stroke="#f8e3bd" stroke-width="4" stroke-linecap="round">
+        <path d="M92 32 C104 26 118 26 128 31"/><path d="M50 46 C56 40 62 37 68 37"/><path d="M154 38 C162 38 170 42 175 48"/>
+        <path d="M24 70 C26 66 28 64 31 63"/><path d="M194 66 C197 69 199 72 200 76"/>
+      </g>
+      <g fill="none" stroke="#a65a22" stroke-width="2.5" stroke-linecap="round">
+        <path d="M100 60 C104 70 104 82 102 92"/><path d="M120 58 C122 70 122 84 120 96"/><path d="M58 70 C62 78 62 88 60 96"/><path d="M162 70 C160 78 160 88 162 96"/>
+      </g>
+    </symbol>
+
+    <symbol id="i-danish" viewBox="0 0 200 160">
+      <g stroke="#2a211b" stroke-width="3" stroke-linejoin="round">
+        <path fill="#d98f45" d="M100 14 Q112 14 120 22 L174 72 Q182 80 174 88 L120 138 Q100 150 80 138 L26 88 Q18 80 26 72 L80 22 Q88 14 100 14Z"/>
+        <path fill="#e9ac5e" d="M100 14 Q112 14 120 22 L136 38 L100 46 L64 38 L80 22 Q88 14 100 14Z"/>
+        <path fill="#c07431" d="M100 38 L144 80 L100 122 L56 80Z"/>
+        <circle cx="100" cy="80" r="27" fill="#4a2a1d"/>
+      </g>
+      <ellipse cx="91" cy="71" rx="8" ry="4" fill="#6f4532"/>
+      <g fill="none" stroke="#fbf3e4" stroke-width="3" stroke-linecap="round">
+        <path d="M52 66 C70 58 84 64 96 56"/><path d="M106 104 C120 96 134 100 150 92"/><path d="M40 86 C52 92 60 90 70 98"/>
+      </g>
+    </symbol>
+
+    <symbol id="i-roll" viewBox="0 0 200 160">
+      <ellipse cx="100" cy="140" rx="86" ry="12" fill="#efe2c9" stroke="#2a211b" stroke-width="3"/>
+      <circle cx="100" cy="78" r="62" fill="#d4914e" stroke="#2a211b" stroke-width="3"/>
+      <path fill="none" stroke="#8a4a1f" stroke-width="5" stroke-linecap="round" d="M96 78 a4 4 0 1 1 8 0 a10 10 0 1 1 -18 0 a16 16 0 1 1 30 0 a22 22 0 1 1 -42 0 a28 28 0 1 1 54 0 a34 34 0 1 1 -66 0 a40 40 0 1 1 78 0 a46 46 0 1 1 -90 0"/>
+      <g fill="none" stroke="#fbf3e4" stroke-width="6" stroke-linecap="round">
+        <path d="M52 52 C70 40 80 70 98 56 C116 42 126 72 148 58"/>
+        <path d="M58 104 C76 92 88 118 106 104 C124 92 134 116 150 102"/>
+      </g>
+    </symbol>
+
+    <symbol id="i-muffin" viewBox="0 0 200 170">
+      <path d="M48 94 L152 94 L140 162 L60 162Z" fill="#5c1d25" stroke="#2a211b" stroke-width="3" stroke-linejoin="round"/>
+      <g stroke="#83404a" stroke-width="3" stroke-linecap="round"><path d="M68 100 L73 156"/><path d="M85 100 L88 156"/><path d="M100 100 V156"/><path d="M115 100 L112 156"/><path d="M132 100 L127 156"/></g>
+      <path d="M38 98 C30 62 56 28 100 28 C144 28 170 62 162 98 C150 106 50 106 38 98Z" fill="#e0a458" stroke="#2a211b" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M62 50 C72 40 84 36 96 35" fill="none" stroke="#f4cf8e" stroke-width="4" stroke-linecap="round"/>
+      <g fill="#3d3550" stroke="#2a211b" stroke-width="2"><circle cx="74" cy="66" r="8"/><circle cx="112" cy="52" r="8"/><circle cx="134" cy="76" r="8"/><circle cx="96" cy="84" r="8"/><circle cx="56" cy="88" r="6"/></g>
+      <g fill="#9a90bd"><circle cx="71" cy="63" r="2.2"/><circle cx="109" cy="49" r="2.2"/><circle cx="131" cy="73" r="2.2"/><circle cx="93" cy="81" r="2.2"/></g>
+      <g fill="#f6dca6"><circle cx="124" cy="44" r="2"/><circle cx="84" cy="54" r="2"/><circle cx="146" cy="88" r="2"/><circle cx="114" cy="90" r="2"/></g>
+    </symbol>
+
+    <symbol id="i-stand" viewBox="0 0 300 380">
+      <g stroke="#2a211b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M150 30 V344" fill="none"/>
+        <circle cx="150" cy="22" r="8" fill="#c8622d"/>
+        <path d="M108 356 Q150 336 192 356Z" fill="#2a211b"/>
+        <ellipse cx="150" cy="324" rx="126" ry="16" fill="#fbf3e4"/>
+        <g fill="#f1dfb8"><path d="M44 318 L68 286 L92 318Z"/><path d="M98 318 L122 286 L146 318Z"/><path d="M154 318 L178 286 L202 318Z"/><path d="M208 318 L232 286 L256 318Z"/></g>
+        <g fill="none" stroke="#7d8c3a" stroke-width="5"><path d="M54 310 H82"/><path d="M108 310 H136"/><path d="M164 310 H192"/><path d="M218 310 H246"/></g>
+        <ellipse cx="150" cy="222" rx="98" ry="13" fill="#fbf3e4"/>
+        <g fill="#e0a458"><path d="M70 218 Q70 186 92 186 Q114 186 114 218Z"/><path d="M128 218 Q128 186 150 186 Q172 186 172 218Z"/><path d="M186 218 Q186 186 208 186 Q230 186 230 218Z"/></g>
+        <g fill="#fbf3e4"><circle cx="92" cy="186" r="8"/><circle cx="150" cy="186" r="8"/><circle cx="208" cy="186" r="8"/></g>
+        <g fill="#b8402e" stroke-width="2"><circle cx="92" cy="178" r="5"/><circle cx="150" cy="178" r="5"/><circle cx="208" cy="178" r="5"/></g>
+        <ellipse cx="150" cy="122" rx="70" ry="10" fill="#fbf3e4"/>
+        <g fill="#e7a8a0"><ellipse cx="118" cy="114" rx="18" ry="6"/><ellipse cx="118" cy="102" rx="18" ry="7"/></g>
+        <g fill="#a6ad6a"><ellipse cx="182" cy="114" rx="18" ry="6"/><ellipse cx="182" cy="102" rx="18" ry="7"/></g>
+        <g fill="#f3d9a4"><ellipse cx="150" cy="114" rx="14" ry="5"/><ellipse cx="150" cy="104" rx="14" ry="6"/></g>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<script src="js/main.js"></script>
+</body>
+</html>
