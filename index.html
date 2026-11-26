@@ -197,6 +197,12 @@ b,strong{font-weight:700}
 .foot-band{margin-top:48px;height:150px;border-top:1px solid var(--pea);background:#faf2e2 center 40%/cover no-repeat;display:grid;place-items:center}
 .foot-band p{background:var(--paper);border:1px solid var(--pea);border-radius:12px;padding:8px 22px;font-size:18px}
 
+/* education alone, clubs in their own card */
+.note-grid.one{grid-template-columns:minmax(0,1fr);max-width:75ch}
+.note-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.langs{margin-top:18px}
+@media (max-width:640px){.note-grid.two{grid-template-columns:1fr}}
+
 /* no italic anywhere */
 *{font-style:normal!important}
 
@@ -316,11 +322,12 @@ b,strong{font-weight:700}
     </article>
     <article class="wide-card">
       <h3>Education</h3>
-      <ul class="note-grid two"><li class="note-card"><h3>BSc in Software Engineering</h3><p class="note">University of New York Tirana, Oct 2023 – Jun 2026, GPA 3.53 out of 4.0</p><p>American-style curriculum covering software development, algorithms, data structures, databases and system design. Next step for me: a master's in Business Informatics and Data Science.</p></li><li class="note-card"><h3>Charity Club</h3><p class="note">Volunteering since Oct 2024</p><p>I plan and run fundraising events and community projects on campus and around Albania.</p></li><li class="note-card"><h3>AI Club</h3><p class="note">Since Apr 2025</p><p>Applied technology projects and startup ideas with other students.</p></li></ul>
+      <ul class="note-grid one"><li class="note-card"><h3>BSc in Software Engineering</h3><p class="note">University of New York Tirana, Oct 2023 – Jun 2026, GPA 3.53 out of 4.0</p><p>American-style curriculum covering software development, algorithms, data structures, databases and system design. Next step for me: a master's in Business Informatics and Data Science.</p></li></ul>
     </article>
     <article class="wide-card">
-      <h3>Languages and how I work</h3>
-      <p>Albanian (native), English (fluent), Turkish (intermediate), Italian (beginner), German (learning).</p>
+      <h3>Outside of work</h3>
+      <ul class="note-grid two"><li class="note-card"><h3>Charity Club</h3><p class="note">Volunteering since Oct 2024</p><p>I plan and run fundraising events and community projects on campus and around Albania.</p></li><li class="note-card"><h3>AI Club</h3><p class="note">Since Apr 2025</p><p>Applied technology projects and startup ideas with other students.</p></li></ul>
+      <p class="langs"><b>Languages:</b> Albanian (native), English (fluent), Turkish (intermediate), Italian (beginner), German (learning).</p>
       <p class="note">Problem solving, clear communication, attention to detail, client management.</p>
     </article>
   </div>
